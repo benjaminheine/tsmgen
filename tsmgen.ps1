@@ -9,29 +9,38 @@
 The name in the description and the parameter section must match. 
 #>
 
-$DrivesSerialFile='tsm_sn_drivename'
-$DrivesDeviceNamesFile='windows_devices'
+$DrivesSerialFile='tsm_sn_drivename.txt'
+$DrivesDeviceNamesFile='windows_devices.txt'
 $DevicesCleanFile='windows_devices_clean'
 $TSMCreatePathCommandFile='commands.txt'
 
 #grep -Ev '0a|Changer' ${DEV_FILENAME} > ${DEV_CLEAN_FILENAME}
 
-Select-String -path $DrivesDeviceNamesFile -CaseSensitive -SimpleMatch -pattern  "0a","Changer" -NotMatch | select-object -ExpandProperty Line| out-file -FilePath $DevicesCleanFile
-                        
+Select-String -path $DrivesDeviceNamesFile -CaseSensitive -SimpleMatch -pattern  "5002188709a141d4"  | Select-String  -CaseSensitive -SimpleMatch -pattern "Changer" -NotMatch | select-object -ExpandProperty Line | out-file -FilePath $DevicesCleanFile
+
+
+
 CLear-content $TSMCreatePathCommandFile
 
 foreach($Line in (get-content $DrivesSerialFile)) {
 	Write-Output "Reading line from sn file: $Line"
-    #$SERIAL=$line.split(" ")[0]
-    #Write-Output  $SERIAL
-    $SERIAL=$line.split(' ')[0]
-    $SERIAL
-    $Line | select-string 'drv\d\d' | select Matches
+    
+	$SERIAL = $Line | Select-String -pattern  "S[0-9]{7,7}.." | % { $_.Matches } | % { $_.Value }
+	#$SERIAL
+    $DriveName = $Line | select-string 'drv\d\d' | % { $_.Matches } | % { $_.Value }
     #Write-Output $DriveName
     
-	#Write-Output "Serial number is: $SERIAL - Drive name is: $DriveName"
-	# DEV_FILE_LINE=`grep ${SERIAL} ${DEV_CLEAN_FILENAME}`
-	# RET_VAL=$?
+	Write-Output "Serial number is: $SERIAL - Drive name is: $DriveName"
+# DEV_FILE_LINE=`grep ${SERIAL} ${DEV_CLEAN_FILENAME}`
+	$DEV_FILE_LINE=select-string -path $DevicesCleanFile -pattern $SERIAL 
+	
+	$RET_VAL=$?
+	if ( 0 -ne $RET_VAL)
+	{
+		Write-Output No device entry found for serial $SERIAL. Skipping"
+	} 
+	else
+	{}
 	# [ 0 -ne "$RET_VAL" ] && {
 	# 	echo "No device entry found for serial (${SERIAL}). Skipping"	
 	# 	continue
