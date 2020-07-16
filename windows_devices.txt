@@ -1,0 +1,156 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\adml.b.heine>cd "\Program Files\Tivoli\TSM\server"
+
+C:\Program Files\Tivoli\TSM\server>tsmdlst.exe
+******************************************
+*       IBM Spectrum Protect             *
+*       tsmdlst SAN Utility Program      *
+******************************************
+Licensed Materials - Property of IBM
+
+5608-E01
+5608-E02
+
+(C) Copyright International Business Machines Corp. 1990, 2011.
+All rights reserved.
+
+U.S. Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corporation.
+
+
+Adapter Name:  com.emulex-AJ763B/AH403A-0
+Manufacturer:  Emulex Corporation
+Serial Number: 5CF60301K3
+NodeWWN:       20000090fad708c6
+Model:         AJ763B/AH403A
+Description:   HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+HardwareVer:   31004549
+DriverVer:     12.4.243.4
+FirmwareVer:   2.10X6
+DriverName:    elxfc
+
+=================================================================================================================================
+===
+Port #1  Vendor_ID   Product_ID        Type     Serial_Number                          Port_WWN            OS_Dev        Dev_Name
+=================================================================================================================================
+===
+          IBM        ULTRIUM-TD4       Tape  C475BD000A   10000000c9959178        Tape0     mt0.0.0.0
+          IBM        ULTRIUM-TD4       Tape  C475BD000B   10000000c9959178        Tape1     mt0.1.0.0
+          IBM        ULTRIUM-TD4       Tape  C475BD000C   10000000c9959178        Tape2     mt0.2.0.0
+          IBM        ULTRIUM-TD4       Tape  C475BD000D   10000000c9959178        Tape3     mt0.3.0.0
+          IBM        ULTRIUM-TD4       Tape  C4756D030A   10000000c9959c94        Tape4     mt3.0.0.0
+          IBM        ULTRIUM-TD4       Tape  C4756D030B   10000000c9959c94        Tape5     mt3.1.0.0
+          IBM        ULTRIUM-TD4       Tape  C4756D030C   10000000c9959c94        Tape6     mt3.2.0.0
+          IBM        ULTRIUM-TD4       Tape  C4756D030D   10000000c9959c94        Tape7     mt3.3.0.0
+          IBM        03584L32          Changer  S175000000   5002188609a041d4     Changer0     lb4.0.0.0
+          IBM        ULT3580-TD4       Tape  S175000003   5002188609a041d4        Tape9     mt4.2.0.0
+          IBM        ULT3580-TD4       Tape  S175000005   5002188609a041d4       Tape10     mt4.3.0.0
+          IBM        ULT3580-TD4       Tape  S175000009   5002188609a041d4       Tape12     mt4.5.0.0
+          IBM        ULT3580-TD4       Tape  S17500000B   5002188609a041d4       Tape13     mt4.6.0.0
+          IBM        ULT3580-TD4       Tape  S17500000D   5002188609a041d4       Tape14     mt4.7.0.0
+          IBM        ULT3580-TD4       Tape  S17500000F   5002188609a041d4       Tape15     mt4.8.0.0
+          IBM        ULT3580-TD4       Tape  S1750000E7   5002188609a041d4       Tape16     mt4.9.0.0
+          IBM        ULT3580-TD4       Tape  S1750000E9   5002188609a041d4       Tape17     mt4.10.0.0
+          IBM        ULT3580-TD4       Tape  S1750000EB   5002188609a041d4       Tape18     mt4.11.0.0
+          IBM        ULT3580-TD4       Tape  S1750000ED   5002188609a041d4       Tape19     mt4.12.0.0
+          IBM        ULT3580-TD4       Tape  S1750000EF   5002188609a041d4       Tape20     mt4.13.0.0
+          IBM        03584L32          Changer  S175000000   5002188609a0425a     Changer1     lb5.0.0.0
+          IBM        ULT3580-TD4       Tape  S175000001   5002188609a0425a       Tape21     mt5.1.0.0
+          IBM        ULT3580-TD4       Tape  S175000003   5002188609a0425a       Tape22     mt5.2.0.0
+          IBM        ULT3580-TD4       Tape  S175000005   5002188609a0425a       Tape23     mt5.3.0.0
+          IBM        ULT3580-TD4       Tape  S175000007   5002188609a0425a       Tape24     mt5.4.0.0
+          IBM        ULT3580-TD4       Tape  S175000009   5002188609a0425a       Tape25     mt5.5.0.0
+          IBM        ULT3580-TD4       Tape  S17500000B   5002188609a0425a       Tape26     mt5.6.0.0
+          IBM        ULT3580-TD4       Tape  S17500000D   5002188609a0425a       Tape27     mt5.7.0.0
+          IBM        ULT3580-TD4       Tape  S17500000F   5002188609a0425a       Tape28     mt5.8.0.0
+          IBM        ULT3580-TD4       Tape  S1750000E7   5002188609a0425a       Tape29     mt5.9.0.0
+          IBM        ULT3580-TD4       Tape  S1750000E9   5002188609a0425a       Tape30     mt5.10.0.0
+          IBM        ULT3580-TD4       Tape  S1750000EB   5002188609a0425a       Tape31     mt5.11.0.0
+          IBM        ULT3580-TD4       Tape  S1750000ED   5002188609a0425a       Tape32     mt5.12.0.0
+          IBM        ULT3580-TD4       Tape  S1750000EF   5002188609a0425a       Tape33     mt5.13.0.0
+          IBM        ULT3580-TD4       Tape  S175000001   5002188609a041d4         Tape     mt4.1.0.0
+          IBM        ULT3580-TD4       Tape  S175000007   5002188609a041d4         Tape     mt4.4.0.0
+=================================================================================================================================
+===
+
+Adapter Name:  com.emulex-AJ763B/AH403A-1
+Manufacturer:  Emulex Corporation
+Serial Number: 5CF60301K3
+NodeWWN:       20000090fad708c7
+Model:         AJ763B/AH403A
+Description:   HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+HardwareVer:   31004549
+DriverVer:     12.4.243.4
+FirmwareVer:   2.10X6
+DriverName:    elxfc
+
+=================================================================================================================================
+===
+Port #1  Vendor_ID   Product_ID        Type     Serial_Number                          Port_WWN            OS_Dev        Dev_Name
+=================================================================================================================================
+===
+=================================================================================================================================
+===
+
+Adapter Name:  com.emulex-AJ763B/AH403A-2
+Manufacturer:  Emulex Corporation
+Serial Number: 5CF60301KM
+NodeWWN:       20000090fad6f4a0
+Model:         AJ763B/AH403A
+Description:   HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+HardwareVer:   31004549
+DriverVer:     12.4.243.4
+FirmwareVer:   2.10X6
+DriverName:    elxfc
+
+=================================================================================================================================
+===
+Port #1  Vendor_ID   Product_ID        Type     Serial_Number                          Port_WWN            OS_Dev        Dev_Name
+=================================================================================================================================
+===
+=================================================================================================================================
+===
+
+Adapter Name:  com.emulex-AJ763B/AH403A-3
+Manufacturer:  Emulex Corporation
+Serial Number: 5CF60301KM
+NodeWWN:       20000090fad6f4a1
+Model:         AJ763B/AH403A
+Description:   HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+HardwareVer:   31004549
+DriverVer:     12.4.243.4
+FirmwareVer:   2.10X6
+DriverName:    elxfc
+
+=================================================================================================================================
+===
+Port #1  Vendor_ID   Product_ID        Type     Serial_Number                          Port_WWN            OS_Dev        Dev_Name
+=================================================================================================================================
+===
+          IBM        ULTRIUM-TD4       Tape  C475BD001A   10000000c9959179       Tape34     mt1.0.0.3
+          IBM        ULTRIUM-TD4       Tape  C475BD001B   10000000c9959179       Tape35     mt1.1.0.3
+          IBM        ULTRIUM-TD4       Tape  C475BD001C   10000000c9959179       Tape36     mt1.2.0.3
+          IBM        ULTRIUM-TD4       Tape  C475BD001D   10000000c9959179       Tape37     mt1.3.0.3
+          IBM        ULTRIUM-TD4       Tape  C4756D031A   10000000c9959c95       Tape38     mt3.0.0.3
+          IBM        ULTRIUM-TD4       Tape  C4756D031B   10000000c9959c95       Tape39     mt3.1.0.3
+          IBM        ULTRIUM-TD4       Tape  C4756D031C   10000000c9959c95       Tape40     mt3.2.0.3
+          IBM        ULTRIUM-TD4       Tape  C4756D031D   10000000c9959c95       Tape41     mt3.3.0.3
+          IBM        03584L32          Changer  S175000000   5002188709a141d4     Changer2     lb4.0.0.3
+          IBM        ULT3580-TD4       Tape  S175000002   5002188709a141d4       Tape42     mt4.1.0.3
+          IBM        ULT3580-TD4       Tape  S175000004   5002188709a141d4       Tape43     mt4.2.0.3
+          IBM        ULT3580-TD4       Tape  S175000006   5002188709a141d4       Tape44     mt4.3.0.3
+          IBM        ULT3580-TD4       Tape  S175000008   5002188709a141d4       Tape45     mt4.4.0.3
+          IBM        ULT3580-TD4       Tape  S17500000A   5002188709a141d4       Tape46     mt4.5.0.3
+          IBM        ULT3580-TD4       Tape  S17500000C   5002188709a141d4       Tape47     mt4.6.0.3
+          IBM        ULT3580-TD4       Tape  S17500000E   5002188709a141d4       Tape48     mt4.7.0.3
+          IBM        ULT3580-TD4       Tape  S175000010   5002188709a141d4       Tape49     mt4.8.0.3
+          IBM        ULT3580-TD4       Tape  S1750000E8   5002188709a141d4       Tape50     mt4.9.0.3
+          IBM        ULT3580-TD4       Tape  S1750000EA   5002188709a141d4       Tape51     mt4.10.0.3
+          IBM        ULT3580-TD4       Tape  S1750000EC   5002188709a141d4       Tape52     mt4.11.0.3
+          IBM        ULT3580-TD4       Tape  S1750000EE   5002188709a141d4       Tape53     mt4.12.0.3
+          IBM        ULT3580-TD4       Tape  S1750000F0   5002188709a141d4       Tape54     mt4.13.0.3
+          ADIC       Scalar 10K        Changer  ADIC0CC6283D0003   10000000c9959179      Changer     lb1.4.0.3
+=================================================================================================================================
+===

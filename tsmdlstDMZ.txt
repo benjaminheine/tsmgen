@@ -1,0 +1,131 @@
+C:\Program Files\Tivoli\TSM\server>tsmdlst.exe
+
+Tivoli Storage Manager -- Device List Utility
+
+Licensed Materials - Property of IBM
+
+5697-TSM (C) Copyright IBM Corporation 2000, 2005. All rights reserved.
+U.S. Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corporation.
+
+Computer Name:      DENU04MS0017
+OS Version:         6.1
+OS Build #:         7601
+TSM Device Driver:  TSMScsi - Running
+
+4 HBAs were detected.
+
+Manufacturer        Model          Driver      Version            Firmware NodeWWN           Description
+----------------------------------------------------------------------------------------------------------------
+Emulex Corporation  AJ763B/AH403A  elxfc       10.7.110.20        2.03X6   20000090FABA55E2  HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+Emulex Corporation  AJ763B/AH403A  elxfc       10.7.110.20        2.03X6   20000090FABA55E3  HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+Emulex Corporation  AJ763B/AH403A  elxfc       10.7.110.20        2.03X6   20000090FABA55AE  HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+Emulex Corporation  AJ763B/AH403A  elxfc       10.7.110.20        2.03X6   20000090FABA55AF  HP 8Gb Dual Channel PCI-e 2.0 FC HBA
+
+TSM Name     ID   LUN  Bus  Port SSN                     WWN               TSM Type     Driver   Device Identifier             Symbolic N
+-----------------------------------------------------------------------------------------------------------------------------------------
+lb0.0.0.3    0    0    0    3    S175000042              5002188709A041D4  LIBRARY      IBM      IBM     03584L32        4.02  Changer3
+mt0.1.0.3    0    1    0    3    S175000044              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape78
+mt0.10.0.3   0    10   0    3    S1750000CA              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape87
+mt0.11.0.3   0    11   0    3    S1750000DC              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape88
+mt0.12.0.3   0    12   0    3    S1750000DE              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape89
+mt0.13.0.3   0    13   0    3    S1750000E0              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape90
+mt0.14.0.3   0    14   0    3    S1750000E2              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape91
+mt0.15.0.3   0    15   0    3    S1750000E4              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape92
+mt0.16.0.3   0    16   0    3    S1750000E6              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape93
+mt0.17.0.3   0    17   0    3    S1750000F2              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape94
+mt0.18.0.3   0    18   0    3    S1750000F4              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape95
+mt0.19.0.3   0    19   0    3    S1750000F6              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape96
+mt0.2.0.3    0    2    0    3    S175000046              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape79
+mt0.20.0.3   0    20   0    3    S1750000F8              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape97
+mt0.21.0.3   0    21   0    3    S1750000FA              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape98
+mt0.3.0.3    0    3    0    3    S175000048              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape80
+mt0.4.0.3    0    4    0    3    S17500004A              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape81
+mt0.5.0.3    0    5    0    3    S17500004C              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape82
+mt0.6.0.3    0    6    0    3    S17500004E              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape83
+mt0.7.0.3    0    7    0    3    S175000050              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape84
+mt0.8.0.3    0    8    0    3    S175000052              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape85
+mt0.9.0.3    0    9    0    3    S1750000C8              5002188709A041D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape86
+lb1.0.0.3    1    0    0    3    S175000095              5002188709A0425A  LIBRARY      IBM      IBM     03584L32        4.02  Changer2
+mt1.1.0.3    1    1    0    3    S175000097              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape0
+mt1.10.0.3   1    10   0    3    S1750000CF              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape59
+mt1.11.0.3   1    11   0    3    S1750000D1              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape60
+mt1.12.0.3   1    12   0    3    S1750000D3              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape61
+mt1.13.0.3   1    13   0    3    S1750000D5              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape62
+mt1.14.0.3   1    14   0    3    S1750000D7              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape63
+mt1.15.0.3   1    15   0    3    S1750000D9              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape64
+mt1.16.0.3   1    16   0    3    S1750000DB              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape65
+mt1.17.0.3   1    17   0    3    S1750000FC              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape66
+mt1.18.0.3   1    18   0    3    S1750000FE              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape67
+mt1.19.0.3   1    19   0    3    S175000100              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape68
+mt1.2.0.3    1    2    0    3    S175000099              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape1
+mt1.20.0.3   1    20   0    3    S175000102              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape69
+mt1.21.0.3   1    21   0    3    S175000104              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape70
+mt1.3.0.3    1    3    0    3    S17500009B              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape2
+mt1.4.0.3    1    4    0    3    S17500009D              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape53
+mt1.5.0.3    1    5    0    3    S17500009F              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape54
+mt1.6.0.3    1    6    0    3    S1750000A1              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape55
+mt1.7.0.3    1    7    0    3    S1750000A3              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape56
+mt1.8.0.3    1    8    0    3    S1750000A5              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape57
+mt1.9.0.3    1    9    0    3    S1750000CD              5002188709A0425A  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape58
+mt2.0.0.3    2    0    0    3    00C475BD0008            10000000C9959178  3590         IBM      IBM     03590E1A        E32E  \\.\Tape71
+mt2.1.0.3    2    1    0    3    00C475BD0009            10000000C9959178  3590         IBM      IBM     03590E1A        E32E  \\.\Tape72
+lb2.2.0.3    2    2    0    3    ADIC0C00000D0000        10000000C9959178  LIBRARY      TSM      ADIC    Scalar 10K      1.6   lb2.2.0.3
+mt2.3.0.3    2    3    0    3    C475BD0001              10000000C9959178  LTO          IBM      IBM     ULT3580-TD4     94D4  \\.\Tape73
+mt5.0.0.3    5    0    0    3    00C4756D0308            10000000C9959C94  3590         IBM      IBM     03590E1A        E32E  \\.\Tape74
+mt5.1.0.3    5    1    0    3    00C4756D0309            10000000C9959C94  3590         IBM      IBM     03590E1A        E32E  \\.\Tape75
+mt5.2.0.3    5    2    0    3    00C4756D0300            10000000C9959C94  3590         IBM      IBM     03590E1A        E32E  \\.\Tape76
+mt5.3.0.3    5    3    0    3    00C4756D0301            10000000C9959C94  3590         IBM      IBM     03590E1A        E32E  \\.\Tape77
+mt1.0.0.4    1    0    0    4    00C475BD0018            10000000C9959179  3590         IBM      IBM     03590E1A        E32E  \\.\Tape49
+mt1.1.0.4    1    1    0    4    00C475BD0019            10000000C9959179  3590         IBM      IBM     03590E1A        E32E  \\.\Tape50
+mt1.2.0.4    1    2    0    4    00C475BD0010            10000000C9959179  3590         IBM      IBM     03590E1A        E32E  \\.\Tape51
+mt1.3.0.4    1    3    0    4    00C475BD0011            10000000C9959179  3590         IBM      IBM     03590E1A        E32E  \\.\Tape52
+mt3.0.0.4    3    0    0    4    00C4756D0318            10000000C9959C95  3590         IBM      IBM     03590E1A        E32E  \\.\Tape3
+mt3.1.0.4    3    1    0    4    00C4756D0319            10000000C9959C95  3590         IBM      IBM     03590E1A        E32E  \\.\Tape4
+lb3.2.0.4    3    2    0    4    ADIC0CC6283D0002        10000000C9959C95  LIBRARY      TSM      ADIC    Scalar 10K      1.6   lb3.2.0.4
+mt3.3.0.4    3    3    0    4    00C4756D0310            10000000C9959C95  3590         IBM      IBM     03590E1A        E32E  \\.\Tape5
+mt3.4.0.4    3    4    0    4    00C4756D0311            10000000C9959C95  3590         IBM      IBM     03590E1A        E32E  \\.\Tape6
+lb4.0.0.4    4    0    0    4    S175000042              5002188609A141D4  LIBRARY      IBM      IBM     03584L32        4.02  Changer0
+mt4.1.0.4    4    1    0    4    S175000043              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape7
+mt4.10.0.4   4    10   0    4    S1750000C9              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape16
+mt4.11.0.4   4    11   0    4    S1750000CB              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape17
+mt4.12.0.4   4    12   0    4    S1750000DD              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape18
+mt4.13.0.4   4    13   0    4    S1750000DF              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape19
+mt4.14.0.4   4    14   0    4    S1750000E1              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape20
+mt4.15.0.4   4    15   0    4    S1750000E3              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape21
+mt4.16.0.4   4    16   0    4    S1750000E5              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape22
+mt4.17.0.4   4    17   0    4    S1750000F1              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape23
+mt4.18.0.4   4    18   0    4    S1750000F3              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape24
+mt4.19.0.4   4    19   0    4    S1750000F5              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape25
+mt4.2.0.4    4    2    0    4    S175000045              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape8
+mt4.20.0.4   4    20   0    4    S1750000F7              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape26
+mt4.21.0.4   4    21   0    4    S1750000F9              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape27
+mt4.3.0.4    4    3    0    4    S175000047              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape9
+mt4.4.0.4    4    4    0    4    S175000049              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape10
+mt4.5.0.4    4    5    0    4    S17500004B              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape11
+mt4.6.0.4    4    6    0    4    S17500004D              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape12
+mt4.7.0.4    4    7    0    4    S17500004F              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape13
+mt4.8.0.4    4    8    0    4    S175000051              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape14
+mt4.9.0.4    4    9    0    4    S1750000C7              5002188609A141D4  LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape15
+lb5.0.0.4    5    0    0    4    S175000095              -                 LIBRARY      IBM      IBM     03584L32        4.02  Changer1
+mt5.1.0.4    5    1    0    4    S175000096              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape28
+mt5.10.0.4   5    10   0    4    S1750000CE              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape37
+mt5.11.0.4   5    11   0    4    S1750000D0              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape38
+mt5.12.0.4   5    12   0    4    S1750000D2              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape39
+mt5.13.0.4   5    13   0    4    S1750000D4              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape40
+mt5.14.0.4   5    14   0    4    S1750000D6              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape41
+mt5.15.0.4   5    15   0    4    S1750000D8              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape42
+mt5.16.0.4   5    16   0    4    S1750000DA              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape43
+mt5.17.0.4   5    17   0    4    S1750000FB              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape44
+mt5.18.0.4   5    18   0    4    S1750000FD              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape45
+mt5.19.0.4   5    19   0    4    S1750000FF              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape46
+mt5.2.0.4    5    2    0    4    S175000098              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape29
+mt5.20.0.4   5    20   0    4    S175000101              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape47
+mt5.21.0.4   5    21   0    4    S175000103              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape48
+mt5.3.0.4    5    3    0    4    S17500009A              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape30
+mt5.4.0.4    5    4    0    4    S17500009C              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape31
+mt5.5.0.4    5    5    0    4    S17500009E              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape32
+mt5.6.0.4    5    6    0    4    S1750000A0              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape33
+mt5.7.0.4    5    7    0    4    S1750000A2              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape34
+mt5.8.0.4    5    8    0    4    S1750000A4              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape35
+mt5.9.0.4    5    9    0    4    S1750000CC              -                 LTO          IBM      IBM     ULT3580-TD4     4C17  \\.\Tape36
