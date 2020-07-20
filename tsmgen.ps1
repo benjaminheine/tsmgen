@@ -56,11 +56,11 @@ if (test-path -path "$ScriptPath\tsmgen_conf.ps1") {
 		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$TCPIPServeraddress = `'$TCPIPServeraddress`'"
 		$tsmoptfile = read-host 'Please enter path to dsm.opt (Defaul value is "C:\Program Files\Tivoli\TSM\baclient\dsm.opt"):' 
 		if(-not($tsmoptfile)){
-			$tsmoptfile = 'C:\Program Files\Tivoli\TSM\baclient\dsm.opt'
+			$tsmoptfile = '"C:\Program Files\Tivoli\TSM\baclient\dsm.opt"'
 		}
 		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$tsmoptfile = `'$tsmoptfile`'"
 		$SourceName = read-host 'please enter TSM source name for creating drive path command (Default value is "TSMLM_DMZ"):' 
-		if(-not($tsmoptfile)){
+		if(-not($SourceName)){
 			$SourceName = 'TSMLM_DMZ'
 		}
 		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$SourceName = `'$SourceName`'"
