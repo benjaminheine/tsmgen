@@ -35,9 +35,9 @@ function connect-tsm($arg1,$arg2,$arg3){
 #
 
 # Check for config file and ask for creating it. If not only fill configs for this run.
-if (test-path -path "$ScriptPath\tsmgen.conf") {
-	write-host "Config file $ScriptPath\tsmgen.conf does exist:"
-	Get-Content "tsmgen.conf"
+if (test-path -path "$ScriptPath\tsmgen_conf.ps1") {
+	write-host "Config file $ScriptPath\tsmgen_conf.ps1 does exist:"
+	Get-Content "tsmgen_conf.ps1"
 	# Source config file
 	. $ScriptPath\tsmgen_conf.ps1
 }else {
@@ -52,38 +52,38 @@ if (test-path -path "$ScriptPath\tsmgen.conf") {
 		$TCPIPServeraddress = Read-host "Please enter TCP Server address (Defaul value is localhost):" 
 		if(-not($TCPIPServeraddress)){
 			$TCPIPServeraddress = 'localhost'
-			Add-Content -Path .\tsmgen.conf -Value "`$TCPIPServeraddress = `'$TCPIPServeraddress`'"
 		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$TCPIPServeraddress = `'$TCPIPServeraddress`'"
 		$tsmoptfile = read-host 'Please enter path to dsm.opt (Defaul value is "C:\Program Files\Tivoli\TSM\baclient\dsm.opt"):' 
 		if(-not($tsmoptfile)){
 			$tsmoptfile = 'C:\Program Files\Tivoli\TSM\baclient\dsm.opt'
-			Add-Content -Path .\tsmgen.conf -Value "`$tsmoptfile = `'$tsmoptfile`'"
 		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$tsmoptfile = `'$tsmoptfile`'"
 		$SourceName = read-host 'please enter TSM source name for creating drive path command (Default value is "TSMLM_DMZ"):' 
 		if(-not($tsmoptfile)){
 			$SourceName = 'TSMLM_DMZ'
-			Add-Content -Path .\tsmgen.conf -Value "`$SourceName = `'$SourceName`'"
-		} 
+		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$SourceName = `'$SourceName`'"
 		$LibraryName = read-host 'Please enter Libraryname (Deafult value is "DD01"):' 
 		if(-not($LibraryName)){
 			$LibraryName = 'DD01'
-			Add-Content -Path .\tsmgen.conf -Value "`$LibraryName = `'$LibraryName`'"
-		} 
+		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$LibraryName = `'$LibraryName`'" 
 		$PortWWN = read-host 'Please enter last 4 digits from WWN (default value is "41d4"):' 
 		if(-not($PortWWN)){
 			$PortWWN = '41d4'
-			Add-Content -Path .\tsmgen.conf -Value "`$PortWWN = `'$PortWWN`'"
-		}   
+		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$PortWWN = `'$PortWWN`'"   
 		$TsmDlst = read-host 'Please enter path to tsmdlst (default value is "C:\Program Files\Tivoli\TSM\server\tsmdlst.exe"):' 
 		if(-not($TsmDlst)){
 			$TsmDlst = 'C:\Program Files\Tivoli\TSM\server\tsmdlst.exe'
-			Add-Content -Path .\tsmgen.conf -Value "`$TsmDlst = `'$TsmDlst`'"
-		} 
+		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$TsmDlst = `'$TsmDlst`'"
 		$dsmadmc = Read-Host 'Please enter path to dsmadmc.exe (Default value is: "C:\Program Files\Tivoli\TSM\baclient\dsmadmc.exe"):' 
 		if(-not($dsmadmc)){
 			$dsmadmc = 'C:\Program Files\Tivoli\TSM\baclient\dsmadmc.exe'
-			Add-Content -Path .\tsmgen.conf -Value "`$dsmadmc = `'$dsmadmc`'"
-		} 
+		}
+		Add-Content -Path .\tsmgen_conf.ps1 -Value "`$dsmadmc = `'$dsmadmc`'" 
 		# Source config file
 		. $ScriptPath\tsmgen_conf.ps1
 	} else {
